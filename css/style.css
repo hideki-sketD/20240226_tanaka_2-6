@@ -38,6 +38,7 @@ a {
     margin: 0 0 0 auto;
     display: block;
     width: 60%;
+    height: 100%;
 }
 
 .mainvisual-text {
@@ -241,7 +242,7 @@ a {
 .service-contents-box2_text {
     font-size: 12px;
     line-height: 20px;
-
+    margin-right: 10%;
 }
 
 
@@ -264,6 +265,7 @@ a {
 .service-contents-box3_text {
     font-size: 12px;
     line-height: 20px;
+    margin-right: 10%;
 }
 
 .blog {
@@ -327,14 +329,16 @@ a {
 }
 
 .card-text{
+    display: flex;
     margin: 5% 5% 10%;
-    font-size: small;
+    font-size: 10px;
     color: rgb(127, 130, 134);
+    justify-content: space-between;
 }
 
 .card-date{
     display: inline-block;
-    margin-right: 25%;
+    
 }
 
 .card-tag{
@@ -382,8 +386,8 @@ table th {
 }
 
 .contact{
-    margin-bottom: 100px;
-    height: 600px;
+    margin-bottom: 5%;
+    height: 700px;
 }
 
 .contact-top{
@@ -413,7 +417,6 @@ table th {
     background: url(../img/interview.png) no-repeat center/cover;
     width: 50%;
     height: 100%;
-   ;
 }
 
 .contact-interview_title {
@@ -426,26 +429,30 @@ table th {
 }
 
 .contact-text{
-    margin: 10% 20% 10%;
+    margin: 10% 20% 3%;
     text-align: center;
     font-weight: bold;
-    font-size: large;
+    font-size: 25px;
     color: rgb(135, 135, 135);
+    position: relative;
 }
 
-
+.contact-boder{
+    font-size: 50px;
+    color: #b20053;
+    text-align: center;
+}
 
 .contact-btn{
-
     height: 50px;
-    width: 230px;
+    width: 250px;
     padding-top: 35px ;
     color: #fff;
     border-radius: 50px;
     background: linear-gradient(90deg, #ff009d, #b20053);
     text-align: center;
     border-bottom: 5px solid #9b0976;
-    margin: 100px auto 0;
+    margin: 3% auto 0;
     display: block;
 }
 
